@@ -34,3 +34,11 @@ This program can be executed in a system which has linux or windows operating sy
 | HR03 | User shall be able to view the total vehicle parked   | Technical | IMPLEMENTED |
 | HR04 | User shall be able to display whole parking alignment | Technical | IMPLEMENTED |
 | HR05 | User shall be able to remove vehicle information      | Technical | IMPLEMENTED |
+# LOW LEVEL REQUIREMENT
+| ID   |                    DESCRIPTION                                                                                              | HLR ID | Status(Implemented/Future) |
+| :--- |                   :---:                                                                                                     |   ---: |                       ---: |
+| LR01 | User must login with username and password in login portal.                                                                 | HR01   |  IMPLEMENTED               |          |
+| LR02 | User must add information of arrived vehicle whether it is 2-wheeler or 4-wheeler.                                          | HR02   |  IMPLEMENTED               |  
+| LR03 | User must be able to view the total vehicle parked in separate count of 2-wheeler and 4-wheeler.                            | HR03   |  IMPLEMENTED               |  
+| LR04 | After adding information of vehicle, user able to see alignment of parking vehicle.                                         | HR04   |  IMPLEMENTED               |  
+| LR05 | User must add information of departure vehicle whether it is 2-wheeler or 4-wheeler to remove that vehicle from parking lot | HR05   |  IMPLEMENTED               |  
