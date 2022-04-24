@@ -37,5 +37,5 @@ This program can be executed in a system which has linux or windows operating sy
 | :--- |                   :---:                                                                                                     |   ---: |                       ---: |
 | LR01 | User must include threshold value as a limit to use a ultrasonic sensor                                                                 | HR01   |  IMPLEMENTED               |          |
 | LR02 | User must include ultrasonic sensor to find distance of object                                           | HR02   |  IMPLEMENTED               |  
-| LR03 | User must add LED for getting output                                         | HR02   |  IMPLEMENTED               | 
+| LR03 | User must add LED for getting output                                         | HR03   |  IMPLEMENTED               | 
 
