@@ -1,44 +1,41 @@
 # OBJECT DETECTION USING ATMEGA 328
 ## RESEARCH
-This project demonstrates the obstacle detection using ultrasonic sensor on Atmega328 chip. Ultrasonic sensor is used to measure the distance of an object.An algorithm is developed for obstacle detection,on an Atmega328 that acts as control board. LED glowing indicates when ultrasonic sensor find any objects in the limited range.All the activities of the control system are done on a microcontroller called Atmega328.
+This project demonstrates the obstacle detection using ultrasonic sensor on Atmega328 chip. Ultrasonic sensor is used to measure the distance of an object.An algorithm is developed for obstacle detection and distance coverage,on an Atmega328 that acts as control board. LED glowing indicates when ultrasonic sensor find any object and distance of the obejct whithin the threshold value.All the activities of the control system are done on a microcontroller called Atmega328.
 
 ## SWOT ANALYSIS
 
 ### STRENGTH
-*	This project helps to find a parking slot for the vehicles that arrive at the parking lot.
-*	It efficiently tracks and allots the slots for the cars.
+*	This project helps to find an object and distance of the object by the sensor.
+*	LED glows immediately when sensor find distance of the object within threshold value.
 ### WEAKNESS
-*	During code compilation runtime errors or any other errors can lead to traffic blocks and confusion at the parking spots.
+*	LED will glow or not glow only based on threshold value.if not threshold value means it wont work.
 ### OPPORTUNITY
-*	The proposed model is less time consuming and hassle free.
-*	Provides necessary guidelines to make parking process smoother altogether.
-*	This project can be operated with minimal man power requirement.
+*	The proposed model is used in parking systems and drinks manufacturing company
+*	This project does not require any man power.
 ### THREAT
 *	The project would have operational shortcomings in case of power failure.
 # 4W's AND 1H's
 ### WHO
-This is used by the staff at the parking lot.
+This is used by the staff at the parking lot and operators at manufacturing companies
 ### WHAT
-This method is used by the staff of the parking lot to facilitate the vehicles of those individuals who wish to park them.
+This method is used by the staff of the parking lot to know whether a vacant space there for parking and is used in cooldrinks manufacturing companies to know measurement of drinks loaded bottle during packaging of drinks.
 ### WHEN
-This method is useful when there is a lot of traffic caused by vehicles waiting for parking slot.
+This method is useful when there is a need of tons of manufacturing cooldrinks in short period of time.so if it is used, packaging time will be reduced.
 ### WHERE
-This method can be deployed in places where there are lot of people and they want to park their vehicles such as mall, cinema theatre, hospitals.
+This method can be deployed in food and softdrinks manufacturing companies.
 ### HOW
 This program can be executed in a system which has linux or windows operating system.
 # HIGH LEVEL REQUIREMENT
 | ID   |                 DESCRIPTION                           | CATEGORY  | STATUS      |
 | :--- |     :---:                                             |      ---: |  ---:       |            
-| HR01 | User shall be able to login the portal                | Technical | IMPLEMENTED |             
-| HR02 | User shall be able to add vehicle information         | Technical | IMPLEMENTED |         
-| HR03 | User shall be able to view the total vehicle parked   | Technical | IMPLEMENTED |
-| HR04 | User shall be able to display whole parking alignment | Technical | IMPLEMENTED |
-| HR05 | User shall be able to remove vehicle information      | Technical | IMPLEMENTED |
+| HR01 | User shall be able to include threshold value         | Technical | IMPLEMENTED |             
+| HR02 | User shall be able to include ultrasonic sensor       | Technical | IMPLEMENTED |
+| HR03 | User shall be able to include LED to get output       | Technical | IMPLEMENTED |
+
 # LOW LEVEL REQUIREMENT
 | ID   |                    DESCRIPTION                                                                                              | HLR ID | Status(Implemented/Future) |
 | :--- |                   :---:                                                                                                     |   ---: |                       ---: |
-| LR01 | User must login with username and password in login portal.                                                                 | HR01   |  IMPLEMENTED               |          |
-| LR02 | User must add information of arrived vehicle whether it is 2-wheeler or 4-wheeler.                                          | HR02   |  IMPLEMENTED               |  
-| LR03 | User must be able to view the total vehicle parked in separate count of 2-wheeler and 4-wheeler.                            | HR03   |  IMPLEMENTED               |  
-| LR04 | After adding information of vehicle, user able to see alignment of parking vehicle.                                         | HR04   |  IMPLEMENTED               |  
-| LR05 | User must add information of departure vehicle whether it is 2-wheeler or 4-wheeler to remove that vehicle from parking lot | HR05   |  IMPLEMENTED               |  
+| LR01 | User must include threshold value as a limit to use a ultrasonic sensor                                                                 | HR01   |  IMPLEMENTED               |          |
+| LR02 | User must include ultrasonic sensor to find distance of object                                           | HR02   |  IMPLEMENTED               |  
+| LR03 | User must add LED for getting output                                         | HR02   |  IMPLEMENTED               | 
+
