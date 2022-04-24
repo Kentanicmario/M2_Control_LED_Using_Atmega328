@@ -1,3 +1,3 @@
-# DISTANCE DETECTION USING ATMEGA 328
+# DISTANCE DETECTION USING ATMEGA328
 ## ABSTRACT
 This project explains the distance detection of obstacles using ultrasonic sensor on Atmega328 chip. Ultrasonic sensor is used to measure the distance of an object. An algorithm is developed for obstacle detection,on an Atmega328 that acts as control board. LED glowing indicates when distance exceeds than threshold value limit.All the activities of the control system are done on a microcontroller called Atmega328.The ultrasonic sensor detects the distance of the object by using threshold value. It is used in parking area to know the empty space for vehicle parking and it is also used in cooldrinks company to load the drinks bottle with correct measurement.
