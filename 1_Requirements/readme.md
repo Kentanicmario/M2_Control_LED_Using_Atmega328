@@ -1,12 +1,12 @@
 # OBJECT DETECTION USING ATMEGA 328
 ## RESEARCH
-This project demonstrates distance of obstacles within threshold limit using ultrasonic sensor on Atmega328 chip. Ultrasonic sensor is used to measure the distance of an object.An algorithm is developed for distance detection,on an Atmega328 that acts as control board. LED glowing indicates when distance exceeded than threshold value.All the activities of the control system are done on a microcontroller called Atmega328.
+This project demonstrates distance of obstacles within threshold limit using ultrasonic sensor on Atmega328 chip. Ultrasonic sensor is used to measure the distance of an object.An algorithm is developed for distance detection,on an Atmega328 that acts as control board. LED glowing indicates when distance exceeded than threshold value limit.All the activities of the control system are done on a microcontroller called Atmega328.
 
 ## SWOT ANALYSIS
 
 ### STRENGTH
-*	This project helps to find an object and distance of the object by the sensor.
-*	LED glows immediately when sensor find distance of the object within threshold value.
+*	This project helps to find an distance of the object by the sensor.
+*	LED glows immediately when sensor coverage exceed than threshold value limit.
 ### WEAKNESS
 *	LED will glow or not glow only based on threshold value.if not threshold value means it wont work.
 ### OPPORTUNITY
@@ -35,7 +35,7 @@ This program can be executed in a system which has linux or windows operating sy
 # LOW LEVEL REQUIREMENT
 | ID   |                    DESCRIPTION                                                                                              | HLR ID | Status(Implemented/Future) |
 | :--- |                   :---:                                                                                                     |   ---: |                       ---: |
-| LR01 | User must include threshold value as a limit to use a ultrasonic sensor                                                                 | HR01   |  IMPLEMENTED               |          |
-| LR02 | User must include ultrasonic sensor to find distance of object                                           | HR02   |  IMPLEMENTED               |  
+| LR01 | User must include threshold value as a limit to use a ultrasonic sensor                                                     | HR01   |  IMPLEMENTED               |          |
+| LR02 | User must include ultrasonic sensor to indicate when distance exceed than threshold limit                                   | HR02   |  IMPLEMENTED               |  
 | LR03 | User must add LED for getting output                                         | HR03   |  IMPLEMENTED               | 
 
