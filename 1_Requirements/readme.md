@@ -10,7 +10,7 @@ This project demonstrates distance of obstacles within threshold limit using ult
 ### WEAKNESS
 *	LED will glow or not glow only based on threshold value.if not threshold value means it wont work.
 ### OPPORTUNITY
-*	The proposed model is used in parking systems and drinks manufacturing company
+*	The proposed model is used in parking systems and drinks manufacturing company.
 *	This project does not require any man power.
 ### THREAT
 *	The project would have operational shortcomings in case of power failure.
